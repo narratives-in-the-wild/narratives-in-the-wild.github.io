@@ -1,0 +1,52 @@
+.logo {
+  display: none;
+  @include media-breakpoint-up(sm) {
+    display: block;
+  }
+  .logo-text {
+    color: $black;
+    font-family: $font-family-heading;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    
+    &:hover {
+      color: darken($black, 10%);
+      text-decoration: none;
+    }
+    
+    .butterfly {
+      font-size: 1.5rem;
+    }
+  }
+}
+.logo-mobile {
+  display: block;
+  width: fit-content;
+  padding: 10px 0 10px 0;
+  @include media-breakpoint-up(sm) {
+    display: none;
+  }
+  .logo-text {
+    color: $black;
+    font-family: $font-family-heading;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    
+    &:hover {
+      color: darken($black, 10%);
+      text-decoration: none;
+    }
+    
+    .butterfly {
+      font-size: 1.2rem;
+    }
+  }
+}

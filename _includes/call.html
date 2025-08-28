@@ -1,0 +1,19 @@
+<div class="call">
+  <div class="call-box-top">
+    {% if site.data.contact.research_inquiry %}
+        <div class="call-inquiry"><strong>{{ site.data.contact.research_inquiry }}</strong></div>
+    {% endif %}
+    {% if include.show_email and site.data.contact.email %}
+    <div class="call-email">Contact: 
+      <a href="mailto:{{ site.data.contact.email }}">
+        {{ site.data.contact.email }}
+      </a>
+    </div>
+    {% endif %}
+  </div>
+    {% if include.show_button %}
+      <div class="call-box-bottom">
+        <a href="{{ site.data.contact.contact_button_link }}" class="button">Get In Touch</a>
+      </div>
+    {% endif %}
+</div>

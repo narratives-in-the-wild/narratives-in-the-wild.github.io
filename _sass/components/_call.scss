@@ -1,0 +1,82 @@
+.call {
+  position: relative;
+  overflow: hidden;
+  background-color: $white-offset;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  z-index: 1;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
+  @include media-breakpoint-up(sm) {
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .call-box-top {
+    flex: 1 1 auto;
+    padding: 20px;
+    width: 100%;
+    min-width: 0;
+    overflow: visible;
+    @include media-breakpoint-up(md) {
+    }
+  }
+  .call-box-bottom {
+    flex: auto;
+    padding: 20px;
+    border-top: 1px solid darken($white-offset, 5%);
+    @include media-breakpoint-up(sm) {
+      flex: 0 0 auto;
+      border: none;
+    }
+  }
+  .call-name {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  .call-phone {
+    margin-bottom: 5px;
+  }
+  .call-email {
+    a {
+      color: $black;
+    }
+  }
+  .call-inquiry {
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    line-height: 1.4;
+    max-width: 100%;
+    width: 100%;
+    display: block;
+    
+    strong {
+      display: block;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      white-space: normal;
+    }
+  }
+  strong {
+    font-weight: bold;
+  }
+  svg {
+    fill: lighten($secondary, 40%);
+    position: absolute;
+    bottom: -9px;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    @include media-breakpoint-up(sm) {
+      width: 120px;
+      height: 120px;
+    }
+  }
+}

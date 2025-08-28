@@ -1,0 +1,56 @@
+baseurl: '/narratives-in-the-wild/'
+permalink: pretty
+title: 'Narratives in the Wild'
+
+logo:
+  mobile: "images/logo/logo.svg"
+  mobile_height: "auto"
+  mobile_width: "80px"
+  desktop: "images/logo/logo.svg"
+  desktop_height: "auto"
+  desktop_width: "180px"
+
+home: 
+  limit_services: 6  # Number of research components to show on homepage
+
+collections:
+  services:
+    output: true
+    sort_by: weight
+  team:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "services"
+    values:
+      layout: "service"
+  - scope:
+      path: ""
+      type: "team"
+    values:
+      layout: "team"
+
+sass:
+  style: compressed # possible values: nested expanded compact compressed
+
+# Disable theme to use custom layouts
+theme: null
+
+plugins:
+  - jekyll-environment-variables
+  - jekyll-feed
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - LICENSE.md
+  - LICENSE
+  - README.md

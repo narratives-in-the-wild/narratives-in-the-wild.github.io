@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Collaborative Annotation",
+    "description": "Open platform for researchers, community members, and users to label narrative patterns in social media.",
+    "image": {
+      "url": "images/features/noun_branding_1885335.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Open Research Data",
+    "description": "Creating transparent, reusable datasets for narrative research across multiple disciplines.",
+    "image": {
+      "url": "images/features/noun_The Process_1885341.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Community-Driven",
+    "description": "Built with Bluesky's moderation services to enable grassroots participation in narrative research.",
+    "image": {
+      "url": "images/features/noun_3d modeling_1885342.svg",
+      "width": 80,
+      "height": 80
+    }
+  }
+]
