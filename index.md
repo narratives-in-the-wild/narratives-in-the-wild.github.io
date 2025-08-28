@@ -19,3 +19,6 @@ We're a research team building a collaborative annotation infrastructure to iden
 Our open research platform brings together researchers, community members, and users to collaboratively annotate narrative patterns on Bluesky, a new social media platform, creating transparent datasets for interdisciplinary research. 
 
 Based at the at the Pioneer Centre for AI in Copenhagen, Denmark, our experimental project focuses on strengthening democracy through new interactive tools for social media.
+
+## Members
+Maria Antoniaka, Ioannis Siglidis
