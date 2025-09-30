@@ -2,16 +2,12 @@
   <div class="container">
     <div class="logo">
       <a href="{{ "/" | relative_url }}" class="logo-text">
-        <img src="{{ '/images/butterfly.svg' | relative_url }}" alt="Butterfly" class="butterfly-icon" width="24" height="24">
-        <span>{{ site.title }}</span>
-        <img src="{{ '/images/butterfly.svg' | relative_url }}" alt="Butterfly" class="butterfly-icon" width="24" height="24">
+        {{ site.title }}
       </a>
     </div>
     <div class="logo-mobile">
       <a href="{{ "/" | relative_url }}" class="logo-text">
-        <img src="{{ '/images/butterfly.svg' | relative_url }}" alt="Butterfly" class="butterfly-icon" width="20" height="20">
-        <span>{{ site.title }}</span>
-        <img src="{{ '/images/butterfly.svg' | relative_url }}" alt="Butterfly" class="butterfly-icon" width="20" height="20">
+        {{ site.title }}
       </a>
     </div>
     {% include main-menu.html %}
