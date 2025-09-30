@@ -2,6 +2,9 @@
 title: Narratives in the Wild
 layout: home
 description: Collaborative narrative annotation infrastructure for social media platforms, addressing misinformation through community-driven research on Bluesky.
+intro_image: "images/observatory.svg"
+intro_image_absolute: true
+intro_image_hide_on_mobile: false
 show_call_box: true
 news_content: |
   **October 2025** - We will present our research at the **NLP for Democracy workshop** at COLM 2025 in Montreal, Canada.
