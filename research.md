@@ -1,10 +1,7 @@
 ---
 title: Research
-layout: services
+layout: research
 description: Our collaborative research approach to understanding narrative patterns in social media
-intro_image: "images/illustrations/reading.svg"
-intro_image_absolute: true
-intro_image_hide_on_mobile: true
 ---
 
 # Research Components

@@ -5,9 +5,6 @@ image: "images/team/joseph-gonzalez-399972-unsplash.jpg"
 jobtitle: "Researcher"
 affiliation: "Pioneer Centre for AI, University of Copenhagen"
 linkedinurl: ""
+category: "leaders"
 weight: 2
 ---
-
-Ioannis contributes expertise in computational methods and artificial intelligence to the Narratives in the Wild project, with a focus on developing scalable approaches to narrative pattern detection and analysis.
-
-His research interests span machine learning applications in social computing and the development of AI systems that can understand and process complex narrative structures in digital media.

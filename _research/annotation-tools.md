@@ -9,8 +9,6 @@ Our annotation tools leverage Bluesky's moderation infrastructure to create an i
 
 Built on the open-source Ozone library and AT Protocol, our tools enable researchers and community members to collaboratively identify and label narrative patterns in social media content.
 
-![Annotation Tools](/images/austin-distel-nGc5RT2HmF0-unsplash.jpg)
-
 # Platform Features
 
 Our annotation platform is designed around Bluesky's unique affordances for open, collaborative moderation:

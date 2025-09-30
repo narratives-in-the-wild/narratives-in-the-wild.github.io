@@ -9,8 +9,6 @@ Building bridges between researchers, community members, and social media users 
 
 Our collaboration frameworks are designed to break down traditional silos between academic research and community participation, enabling truly interdisciplinary and inclusive research on narrative patterns.
 
-![Collaboration](/images/austin-distel-nGc5RT2HmF0-unsplash.jpg)
-
 # Stakeholder Integration
 
 Our project brings together diverse perspectives and expertise:

@@ -1,26 +1,17 @@
+# Production configuration for GitHub Pages
 baseurl: '/narratives-in-the-wild/'
 url: 'https://maria-antoniak.github.io'
 permalink: pretty
 title: 'Narratives in the Wild'
 
-# Jekyll settings
+# Minimal configuration for GitHub Pages compatibility
 markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-logo:
-  mobile: "images/logo/logo.svg"
-  mobile_height: "auto"
-  mobile_width: "80px"
-  desktop: "images/logo/logo.svg"
-  desktop_height: "auto"
-  desktop_width: "180px"
-
-home: 
-  limit_research: 6  # Number of research components to show on homepage
-
+# Collections
 collections:
   research:
     output: true
@@ -29,6 +20,7 @@ collections:
     output: true
     permalink: /:collection/:name/
 
+# Defaults
 defaults:
   - scope:
       path: ""
@@ -41,24 +33,17 @@ defaults:
     values:
       layout: "team"
 
-sass:
-  style: compressed # possible values: nested expanded compact compressed
-
-# Disable theme to use custom layouts
-theme: null
-
+# Plugins (only GitHub Pages supported ones)
 plugins:
   - jekyll-feed
   - jekyll-sitemap
 
+# Exclude files
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - LICENSE.md
+  - vendor/
   - LICENSE
   - README.md
+  - _config_prod.yml

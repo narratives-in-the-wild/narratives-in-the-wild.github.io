@@ -6,8 +6,6 @@ weight: 1
 
 Our research methodology combines computational folkloristics, sensemaking theory, and collaborative annotation to understand how narratives spread through social media ecosystems.
 
-![Research Methodology](/images/austin-distel-nGc5RT2HmF0-unsplash.jpg)
-
 # Theoretical Foundations
 
 Our approach draws from three key research areas to address the challenge of misinformation in online spaces:

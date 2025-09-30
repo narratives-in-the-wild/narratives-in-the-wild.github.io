@@ -7,8 +7,6 @@ bodyClass: page-about
 
 The modern social media ecosystem is in crisis. Recent events have created a stranglehold over most social media, with the purchase of Twitter by Elon Musk, TikTok's internal censorship and threatened U.S. ban, moderation changes at Meta, and the closing of research APIs supporting an online information ecosystem where misinformation and disinformation can thrive.
 
-![Research Project](/images/thom-holmes-Lrfw0U_o9I0-unsplash.jpg)
-
 # Our Approach
 
 Battling to correct individual pieces of misinformation is perhaps always a losing game. As Alice Marwick, director of Data & Society, notes: "The problem is less about 'units of facts'... The problem is with these big, sticky stories."
